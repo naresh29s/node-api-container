@@ -52,6 +52,7 @@ app.get('/platforms/:platformId/domains/:domainId/accounts/:accountId', function
 
     res.setHeader('Content-Type', 'application/json');
     res.send(response);
+    
 
 })
 
